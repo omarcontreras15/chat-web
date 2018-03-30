@@ -1,0 +1,59 @@
+<html>
+<!-- Head -->
+
+<head>
+
+	<title>Sala de chat</title>
+
+	<!-- For-Mobile-Apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //For-Mobile-Apps -->
+
+	<!-- Style -->
+	<link rel="stylesheet" href="public/css/style.css" type="text/css" media="all">
+
+</head>
+<!-- //Head -->
+
+<!-- Body -->
+
+<body>
+
+	<h1>Chat arquitectura
+		<span>V 1.0</span>
+	</h1>
+
+	<div class="container w3layouts agileits">
+
+		<div id="chatbox">
+			<br>
+			<div id="chatview" class="p1" style="display: block;">
+
+				<div id="profile" class="animate">
+
+					<p class="animate">{{USUARIO}}</p>
+				</div>
+
+				<div id="chat-messages" class="animate">
+
+				</div>
+
+				<div id="sendmessage">
+					<input type="text" id="mensaje" placeholder="Envíar mensaje...">
+					<button id="enviar"></button>
+				</div>
+
+			</div>
+
+			<img src="public/images/usuario.png" class="floatingImg" style="top: 20px; width: 68px; left: 108px;">
+		</div>
+
+	</div>
+	<script src="public/js/jquery.min.js"></script>
+	<!-- //Custom-JavaScript-File-Links -->
+	<script src="public/js/chat.js"></script>
+</body>
+
+</html>
